@@ -1,5 +1,9 @@
-langchain-community
+fastapi
+uvicorn
+pydantic
+streamlit
+requests
+python-dotenv
+
 langchain-core
 langchain-groq
-streamlit
-python-dotenv

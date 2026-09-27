@@ -13,7 +13,7 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     response: str
 
-app.get("/")
+@app.get("/")
 def home():
     return {"message": "LLM chatbot API is running"}
 
