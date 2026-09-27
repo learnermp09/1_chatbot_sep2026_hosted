@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "https://llm-chatbot-api-xxxx.onrender.com/chat"
 
 st.title("✨LLM AI Chatbot")
 
